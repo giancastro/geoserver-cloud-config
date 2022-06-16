@@ -17,10 +17,10 @@ server:
 
 spring:
   rabbitmq:
-    host: ${rabbitmq.host:rabbitmq}
-    port: ${rabbitmq.port:5672}
-    username: ${rabbitmq.user:guest}
-    password: ${rabbitmq.password:guest}
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     bus:
       enabled: true
